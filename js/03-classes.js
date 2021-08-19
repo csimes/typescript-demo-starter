@@ -97,7 +97,7 @@ var Bear = /** @class */ (function (_super) {
     return Bear;
 }(Animal));
 var winnie = new Bear();
-winnie.legs = 4;
+winnie.numberOfLegs = 4;
 winnie.isCarnivore = false;
 winnie.name = "Winnie the Pooh";
 winnie.color = "yellow";
@@ -109,7 +109,7 @@ var Tiger = /** @class */ (function (_super) {
     return Tiger;
 }(Animal));
 var khan = new Tiger();
-khan.legs = 4;
+khan.numberOfLegs = 4;
 khan.isCarnivore = true;
 khan.name = "Shere Khan";
 khan.hasStripes = true;

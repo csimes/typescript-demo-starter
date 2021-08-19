@@ -78,7 +78,7 @@ myMotorcycle.easyToDoWheelie = true;
 myMotorcycle.topSpeed = 180;
 
 class Animal {
-    legs: number;
+    numberOfLegs: number;
     isCarnivore: boolean;
     name: string;
 }
@@ -88,7 +88,7 @@ class Bear extends Animal {
 }
 
 let winnie: Bear = new Bear();
-winnie.legs = 4;
+winnie.numberOfLegs = 4;
 winnie.isCarnivore = false;
 winnie.name = "Winnie the Pooh"
 winnie.color = "yellow"
@@ -97,7 +97,7 @@ class Tiger extends Animal {
 }
 
 let khan: Tiger = new Tiger();
-khan.legs = 4;
+khan.numberOfLegs = 4;
 khan.isCarnivore = true;
 khan.name = "Shere Khan"
 khan.hasStripes = true;
