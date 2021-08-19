@@ -2,7 +2,7 @@
   "name": "typescript-demo",
   "version": "1.0.0",
   "description": "Starter for typescript demo",
-  "main": "js/02-functions.js",
+  "main": "js/03-classes.js",
   "author": "",
   "license": "ISC"
 }
